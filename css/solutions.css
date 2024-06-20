@@ -12,7 +12,7 @@
 }
 
 
-/* SOLUTIONS 2 */
+/* SOLUTION 2 */
 .ex-2-square {
     transition: width 3s;
 }
@@ -21,7 +21,7 @@
 }
 
 
-/* SOLUTIONS 3 */
+/* SOLUTION 3 */
 .ex-3-square {
     transition: border-radius 3s;
 }
@@ -30,7 +30,7 @@
 }
 
 
-/* SOLUTIONS 4 */
+/* SOLUTION 4 */
 .ex-4-square {
     transition: background-color 3s;
 }
@@ -39,7 +39,7 @@
 }
 
 
-/* SOLUTIONS 5 */
+/* SOLUTION 5 */
 .ex-5-square {
     transition: transform 3s;
 }
@@ -51,13 +51,13 @@
 }
 
 
-/* SOLUTIONS 6 */
+/* SOLUTION 6 */
 .ex-6-img:hover {
     filter: grayscale(100%);
 }
 
 
-/* SOLUTIONS 7 */
+/* SOLUTION 7 */
 .ex-7-img {
     transition: filter 3s;
 }
@@ -66,7 +66,7 @@
 }
 
 
-/* SOLUTIONS 8 */
+/* SOLUTION 8 */
 .ex-8-img {
     transition: border-radius 3s, filter 3s;
 }
@@ -77,7 +77,7 @@
 }
 
 
-/* SOLUTIONS 9 */
+/* SOLUTION 9 */
 .ex-9-img {
     transition: border-radius 3s, filter 3s, transform 3s;
 }
@@ -86,4 +86,19 @@
     filter: invert(100%);
     border-radius: 20%;
     transform: scale(1.5);
+}
+
+
+
+/* SOLUTION 10 */
+.ex-10-icon {
+    animation: rotate infinite 3s linear;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
