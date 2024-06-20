@@ -3,8 +3,17 @@
 ------------------------ */
 
 /* SOLUTONS 1 */
-
+.ex-1-square:hover {
+    transition: background-color 5s;
+}
 .ex-1-square:hover {
     background-color: red;
-    transition: background-color 5s;
+}
+
+/* SOLUTIONS 2 */
+.ex-2-square {
+    transition: width 5s;
+}
+.ex-2-square:active {
+    width: 100%;
 }
