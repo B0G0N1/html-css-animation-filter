@@ -66,5 +66,16 @@
     transition: filter 3s;
 }
 .ex-7-img:hover {
+    filter: grayscale(100%) invert(100%);
+}
+
+
+/* SOLUTIONS 8 */
+.ex-8-img {
+    transition: border-radius 3s, filter 3s;
+}
+.ex-8-img:hover {
     filter: grayscale(100%);
+    filter: invert(100%);
+    border-radius: 20%;
 }
