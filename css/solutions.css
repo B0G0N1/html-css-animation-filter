@@ -92,7 +92,7 @@
 
 /* SOLUTION 10 */
 .ex-10-icon {
-    animation: rotate infinite 3s linear;
+    animation: rotate 3s infinite linear;
 }
 @keyframes rotate {
     from {
@@ -100,5 +100,19 @@
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+
+/* SOLUTION 11 */
+.ex-11-icon {
+    animation: rotate 3s infinite linear alternate;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(270deg);
     }
 }
