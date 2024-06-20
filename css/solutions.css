@@ -1,3 +1,10 @@
 /* -----------------------
     EXERCISE SOLUTIONS
 ------------------------ */
+
+/* SOLUTONS 1 */
+
+.ex-1-square:hover {
+    background-color: red;
+    transition: background-color 5s;
+}
