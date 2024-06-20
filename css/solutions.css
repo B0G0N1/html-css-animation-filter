@@ -5,7 +5,7 @@
 
 /* SOLUTONS 1 */
 .ex-1-square:hover {
-    transition: background-color 5s;
+    transition: background-color 3s;
 }
 .ex-1-square:hover {
     background-color: red;
@@ -14,7 +14,7 @@
 
 /* SOLUTIONS 2 */
 .ex-2-square {
-    transition: width 5s;
+    transition: width 3s;
 }
 .ex-2-square:active {
     width: 100%;
@@ -23,7 +23,7 @@
 
 /* SOLUTIONS 3 */
 .ex-3-square {
-    transition: border-radius 5s;
+    transition: border-radius 3s;
 }
 .ex-3-square:hover {
     border-radius: 50%;
@@ -32,7 +32,7 @@
 
 /* SOLUTIONS 4 */
 .ex-4-square {
-    transition: background-color 5s;
+    transition: background-color 3s;
 }
 .ex-4-square:hover {
     background-color: rgba(255, 0, 0, 0);
@@ -41,7 +41,7 @@
 
 /* SOLUTIONS 5 */
 .ex-5-square {
-    transition: margin width height 5s;
+    transition: margin width height 3s;
 }
 .ex-5-square:hover {
     margin: 0px;
@@ -52,4 +52,13 @@
     margin: 40px;
     width: 20px;
     height: 20px;
+}
+
+
+/* SOLUTIONS 6 */
+.ex-6-img {
+    transition: filter 3s;
+}
+.ex-6-img:hover {
+    filter: grayscale(100%);
 }
