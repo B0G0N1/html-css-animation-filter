@@ -116,3 +116,20 @@
         transform: rotate(270deg);
     }
 }
+
+
+/* SOLUTION 12 */
+.ex-12-top-white {
+    animation: slide 3s infinite linear alternate;
+}
+.ex-12-bottom-white {
+    animation: slide 3s infinite linear alternate-reverse;
+}
+@keyframes slide {
+    from {
+        left: 10%;
+    }
+    to {
+        left: 50%;
+    }
+}
